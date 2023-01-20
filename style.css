@@ -1,0 +1,24 @@
+header{
+    background-color: #85CDF5;
+}
+
+#section-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-link{
+    color: black;
+    text-decoration: none;
+}
+
+.header-link:hover{
+    text-decoration: underline black;
+}
+
+#title-section{
+    display: flex;
+    background-image: url("../images/background.svg");
+    background-repeat: no-repeat;
+}
