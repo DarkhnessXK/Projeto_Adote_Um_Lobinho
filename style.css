@@ -157,14 +157,14 @@ header {
     box-shadow: 35px -35px #2C5680;
 }
 
-#wolf-2-data{
+#wolf-2-data {
     margin-right: 3vh;
     max-width: 50%;
 }
 
 #linear-gradient {
     background: linear-gradient(270deg, #2C5680 0%, #DEB959 100%);
-    height: 3px;
+    height: 5px;
 }
 
 footer {
