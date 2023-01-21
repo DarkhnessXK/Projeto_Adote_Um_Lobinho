@@ -1,3 +1,4 @@
+/* Home  */
 header {
     background-color: #85CDF5;
 }
@@ -126,13 +127,14 @@ header {
     line-height: 2.5vh;
 }
 
-#lobos2-section{
+#lobos2-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 5vh;
 }
+
 footer {
     background-color: #333333;
     padding: 8vh;
@@ -181,4 +183,24 @@ footer {
 #link-quem-somos {
     color: black;
     text-decoration: none;
+}
+
+/* Quem somos */
+
+#who-we-are-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh;
+    padding: 3vh;
+}
+
+#who-we-are-h1{
+    font-size: 5.5vh;
+    margin: 3vh;
+}
+
+#who-we-are-div {
+    width: 75%;
+    font-size: 3vh;
 }
