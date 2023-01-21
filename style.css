@@ -87,11 +87,12 @@ header {
     flex-direction: column;
     text-align: center;
     flex-wrap: wrap;
-    padding: 2vh;
+    padding: 5vh;
 }
 
 #value-cards{
     display: flex;
+    line-height: 3vh;
 }
 
 #values-h1 {
@@ -126,11 +127,19 @@ footer {
     padding: 8vh;
 }
 
+#footer-section{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .mapouter {
     position: relative;
     text-align: right;
     height: 280px;
     width: 380px;
+    margin: 1vh;
 }
 
 .gmap_canvas {
@@ -138,4 +147,27 @@ footer {
     background: none !important;
     height: 280px;
     width: 380px;
+}
+
+.informations-footer{
+    margin: 2vh;
+}
+
+#developed-by{
+    display: flex;
+    flex-direction: column;
+}
+
+#button-footer{
+    border: none;
+    font-size: 1.5vh;
+    background-color: #DEB959;
+    font-weight: bolder;
+    text-align: center;
+    padding: 1vh;
+}
+
+#link-quem-somos{
+    color: black;
+    text-decoration: none;
 }
