@@ -79,3 +79,39 @@ header {
     width: 75%;
     line-height: 3.5vh;
 }
+
+#lobos1-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#lobos-h1{
+    color: #DEB959;
+    font-size: 5vh;
+    font-weight: bolder;
+}
+
+.lobos-p{
+
+}
+
+footer{
+    background-color: #333333;
+    padding: 8vh;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 280px;
+    width: 380px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 280px;
+    width: 380px;
+}
