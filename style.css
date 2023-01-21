@@ -113,6 +113,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 5vh;
 }
 
 #lobos-h1 {
@@ -121,8 +122,17 @@ header {
     font-weight: bolder;
 }
 
-.lobos-p {}
+.lobos-p {
+    line-height: 2.5vh;
+}
 
+#lobos2-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+}
 footer {
     background-color: #333333;
     padding: 8vh;
