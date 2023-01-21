@@ -238,3 +238,99 @@ footer {
     width: 75%;
     font-size: 3vh;
 }
+
+/* Nossos lobos */
+
+#search-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh;
+    padding: 5vh;
+}
+
+.search-input{
+    background: url("../images/search-icon.svg") no-repeat scroll 7px 7px;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    width: 63vw;
+    height: 7vh;
+    left: 11%;
+    top: 10rem;
+    
+    border: 1px solid #333333;
+}
+
+.btn-add{
+    font-size: 2vw;
+    font-weight:700;
+    color: white;
+    position: absolute;
+    width: 5.5em;
+    height: 7vh;
+    left: 78%;
+    top: 10rem;
+
+    background: #DEB959;
+}
+
+.btn-filter{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 2em;
+    height: 1rem;
+    left: 13vw;
+    top: 36vh;
+
+    background: #FAFAFA;
+    border: 1px solid #333333;
+}
+
+.text-filter{
+        
+    position: absolute;
+    left: 16vw;
+    top: 35vh;
+    font-weight: 600;
+
+    color: #353535;
+}
+
+.background-div{
+    margin-left: 5rem;
+    width: 30vw;
+    height: 45vh;
+    background: #2C5680;
+    border: 4px solid #333333;
+}
+
+.lobo{
+    position: absolute;
+    width: 30vw;
+    height: 45vh;
+    left: 11rem;
+    top: 20rem;
+}
+
+#img-div{
+    display: inline-block;
+    width: 49%;
+}
+#description{
+    width: 45%;   
+    display: inline-block;
+}
+
+.btn-adot{
+    position: absolute;
+    width: 5.5em;
+    height: 7vh;
+    left: 80vw;
+    top: 50vh;
+    font-size: 1.4vw;
+    font-weight:700;
+    color: white;
+    background: #DEB959;
+}
