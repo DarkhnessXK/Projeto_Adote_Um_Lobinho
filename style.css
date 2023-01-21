@@ -109,7 +109,7 @@ header {
 }
 
 
-#lobos1-section {
+#wolf1-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,22 +117,29 @@ header {
     margin: 5vh;
 }
 
-#lobos-h1 {
+.wolf-image {}
+
+#wolf-h1 {
     color: #DEB959;
     font-size: 5vh;
     font-weight: bolder;
 }
 
-.lobos-p {
+.wolf-p {
     line-height: 2.5vh;
 }
 
-#lobos2-section {
+#wolf2-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 5vh;
+}
+
+#linear-gradient {
+    background: linear-gradient(270deg, #2C5680 0%, #DEB959 100%);
+    height: 3px;
 }
 
 footer {
@@ -146,6 +153,8 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
+
+
 
 .mapouter {
     position: relative;
@@ -195,7 +204,7 @@ footer {
     padding: 3vh;
 }
 
-#who-we-are-h1{
+#who-we-are-h1 {
     font-size: 5.5vh;
     margin: 3vh;
 }
