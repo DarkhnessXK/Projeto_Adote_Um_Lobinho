@@ -29,7 +29,13 @@ header {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    height: 60vh;
+    height: 80vh;
+}
+
+#title-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #title-h1 {
@@ -42,11 +48,7 @@ header {
     font-size: 2.5vh;
 }
 
-#title-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 #about-section {
     color: white;
@@ -71,13 +73,11 @@ header {
     font-weight: bolder;
 }
 
-
-
 #about-p {
     display: flex;
-    text-align: center;
     width: 75%;
     line-height: 3.5vh;
+    font-size: 2.5vh;
 }
 
 #values-section {
@@ -90,9 +90,10 @@ header {
     padding: 5vh;
 }
 
-#value-cards{
+#value-cards {
     display: flex;
     line-height: 3vh;
+    margin: 5vh;
 }
 
 #values-h1 {
@@ -127,7 +128,7 @@ footer {
     padding: 8vh;
 }
 
-#footer-section{
+#footer-section {
     display: flex;
     color: white;
     align-items: center;
@@ -149,16 +150,16 @@ footer {
     width: 380px;
 }
 
-.informations-footer{
+.informations-footer {
     margin: 2vh;
 }
 
-#developed-by{
+#developed-by {
     display: flex;
     flex-direction: column;
 }
 
-#button-footer{
+#button-footer {
     border: none;
     font-size: 1.5vh;
     background-color: #DEB959;
@@ -167,7 +168,7 @@ footer {
     padding: 1vh;
 }
 
-#link-quem-somos{
+#link-quem-somos {
     color: black;
     text-decoration: none;
 }
