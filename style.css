@@ -117,7 +117,7 @@ header {
 #wolf1-section {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin: 5vh;
 }
@@ -147,7 +147,7 @@ header {
     padding: 5vh;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: center;
     margin: 5vh;
 }
 
