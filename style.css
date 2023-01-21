@@ -108,16 +108,25 @@ header {
     border-radius: 10vh;
 }
 
+#wolf-h1-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
 
 #wolf1-section {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
     margin: 5vh;
 }
 
-.wolf-image {}
+#wolf-1-image {
+    border: 4px solid;
+    box-sizing: border-box;
+    box-shadow: -35px -35px #2C5680;
+}
 
 #wolf-h1 {
     color: #DEB959;
@@ -125,16 +134,32 @@ header {
     font-weight: bolder;
 }
 
+#wolf-1-data {
+    margin-left: 3vh;
+    max-width: 50%;
+}
+
 .wolf-p {
     line-height: 2.5vh;
 }
 
 #wolf2-section {
+    padding: 5vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
     margin: 5vh;
+}
+
+#wolf-2-image {
+    border: 4px solid;
+    box-sizing: border-box;
+    box-shadow: 35px -35px #2C5680;
+}
+
+#wolf-2-data{
+    margin-right: 3vh;
+    max-width: 50%;
 }
 
 #linear-gradient {
