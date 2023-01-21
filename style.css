@@ -25,7 +25,7 @@ header {
     background-image: url("../images/background.svg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     justify-content: center;
     flex-direction: column;
     text-align: center;
@@ -80,24 +80,48 @@ header {
     line-height: 3.5vh;
 }
 
-#lobos1-section{
+#values-section {
+    background-color: #333333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 2vh;
+}
+
+#value-cards{
+    display: flex;
+}
+
+#values-h1 {
+    color: #DEB959;
+    font-size: 5vh;
+    font-weight: bolder;
+}
+
+.cards-image {
+    background-color: white;
+    border-radius: 10vh;
+}
+
+
+#lobos1-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#lobos-h1{
+#lobos-h1 {
     color: #DEB959;
     font-size: 5vh;
     font-weight: bolder;
 }
 
-.lobos-p{
+.lobos-p {}
 
-}
-
-footer{
+footer {
     background-color: #333333;
     padding: 8vh;
 }
