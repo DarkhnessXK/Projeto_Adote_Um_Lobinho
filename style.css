@@ -42,6 +42,7 @@ header {
 #title-h1 {
     font-size: 7.5vh;
     font-weight: bolder;
+    
 }
 
 #description {
@@ -224,7 +225,6 @@ footer {
 #who-we-are-main {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 5vh;
     padding: 3vh;
 }
@@ -240,6 +240,11 @@ footer {
 }
 
 /* Nossos lobos */
+
+main{
+    margin: 5vh 9vw;
+    padding: 3vh;
+}
 
 #search-section{
     display: flex;
@@ -298,39 +303,71 @@ footer {
     color: #353535;
 }
 
-.background-div{
-    margin-left: 5rem;
-    width: 30vw;
-    height: 45vh;
-    background: #2C5680;
-    border: 4px solid #333333;
-}
-
-.lobo{
-    position: absolute;
-    width: 30vw;
-    height: 45vh;
-    left: 11rem;
-    top: 20rem;
-}
-
-#img-div{
-    display: inline-block;
-    width: 49%;
-}
-#description{
-    width: 45%;   
-    display: inline-block;
-}
-
 .btn-adot{
     position: absolute;
     width: 5.5em;
     height: 7vh;
-    left: 80vw;
-    top: 50vh;
+    margin-left: 70%;
+    margin-top: 10%;
     font-size: 1.4vw;
     font-weight:700;
     color: white;
     background: #DEB959;
+}
+
+.new-wolf{
+    width: 100%;
+    height: 60vh;
+}
+.img-div{
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+.description-div{
+    position: absolute;
+    display: inline-block;
+    width: 46%;
+    height: 60%;
+}
+
+.background-div{
+    margin: 1% 0% 0% 10%;
+    width: 75%;
+    height: 75%;
+    background: #2C5680;
+    border: 4px solid #333333;
+}
+
+.wolf-fig{
+    width: auto;
+    height: auto;
+    transform: translateX(7rem) translateY(-15rem);
+}
+
+.wolf-img{
+    position:absolute;  
+    width: 35vw;
+    height: 45vh;
+}
+
+h3{
+    font-size: 5vh;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.wolf-age{
+    margin-left: 10%;
+}
+
+.wolf-des{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.change-page{
+    margin-top: 20px;
+    text-align: center;
 }
