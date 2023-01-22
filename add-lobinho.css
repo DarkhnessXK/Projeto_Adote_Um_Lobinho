@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: #85CDF5;
+}
+
+/*
+first line colocar ambos na mesma linha, sem uma caixa atrapalhar a outra
+aumentar o salvar
+criar essa caixa fundo transparente linha preta
+*/
+.main_add_lobo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.form_addlobo {
+    display: flex;
+    flex-direction: column;
+    outline: 2px solid black; /* define uma borda de 2px de espessura e cor preta */
+    margin: 5vh;
+    padding: 4vw;
+    gap: 20px;
+    width: 50%;
+    font-family: 'Darker Grotesque';
+  }
+
+.form_addlobo >input{
+    background-color: #E6E6E6;
+    border: 1px solid black;
+}  
+.titulo-form {
+    text-align: center;
+}
+
+.first-line{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+}
+
+.line-top{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.line-botton {
+    display: flex;
+    flex-direction: column;
+    width:25%;
+}
+.input_lobo {
+    width: 92%;
+}
+.second-line {
+    display: flex;
+    flex-direction: column;
+}
+
+.descrição-do-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.descrição-do-form >textarea {
+    resize: none;
+    width: 100%;
+}
+.form-button {
+    display: flex ;
+    justify-content: center;
+}
+button {
+    background-color: #2C5680;
+    color: white;
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    
+}
+
+
+#section-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-link {
+    color: black;
+    text-decoration: none;
+}
+
+.header-link2 {
+    color: black;
+    text-decoration: underline black;
+}
+
+#linear-gradient {
+    background: linear-gradient(270deg, #2C5680 0%, #DEB959 100%);
+    height: 5px;
+}
+
+footer {
+    background-color: #333333;
+    padding: 8vh;
+}
+
+#footer-section {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 280px;
+    width: 380px;
+    margin: 1vh;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 280px;
+    width: 380px;
+}
+
+.informations-footer {
+    margin: 2vh;
+}
+
+#developed-by {
+    display: flex;
+    flex-direction: column;
+}
+
+#button-footer {
+    border: none;
+    font-size: 1.5vh;
+    background-color: #DEB959;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+#link-quem-somos {
+    color: black;
+    text-decoration: none;
+}
+
+/* Quem somos */
+
+#who-we-are-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh;
+    padding: 3vh;
+}
+
+#who-we-are-h1 {
+    font-size: 5.5vh;
+    margin: 3vh;
+}
+
+#who-we-are-div {
+    width: 75%;
+    font-size: 3vh;
+}
+
+/* Nossos lobos */
+
+#search-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh;
+    padding: 5vh;
+}
+
+.search-input{
+    background: url("../images/search-icon.svg") no-repeat scroll 7px 7px;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    width: 63vw;
+    height: 7vh;
+    left: 11%;
+    top: 10rem;
+    
+    border: 1px solid #333333;
+}
+
+.btn-add{
+    font-size: 2vw;
+    font-weight:700;
+    color: white;
+    position: absolute;
+    width: 5.5em;
+    height: 7vh;
+    left: 78%;
+    top: 10rem;
+
+    background: #DEB959;
+}
+
+.btn-filter{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 2em;
+    height: 1rem;
+    left: 13vw;
+    top: 36vh;
+
+    background: #FAFAFA;
+    border: 1px solid #333333;
+}
+
+.text-filter{
+        
+    position: absolute;
+    left: 16vw;
+    top: 35vh;
+    font-weight: 600;
+
+    color: #353535;
+}
+
+.background-div{
+    margin-left: 5rem;
+    width: 30vw;
+    height: 45vh;
+    background: #2C5680;
+    border: 4px solid #333333;
+}
+
+.lobo{
+    position: absolute;
+    width: 30vw;
+    height: 45vh;
+    left: 11rem;
+    top: 20rem;
+}
+
+#img-div{
+    display: inline-block;
+    width: 49%;
+}
+#description{
+    width: 45%;   
+    display: inline-block;
+}
+
+.btn-adot{
+    position: absolute;
+    width: 5.5em;
+    height: 7vh;
+    left: 80vw;
+    top: 50vh;
+    font-size: 1.4vw;
+    font-weight:700;
+    color: white;
+    background: #DEB959;
+}

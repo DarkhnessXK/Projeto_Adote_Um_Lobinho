@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote um lobinho</title>
+    <link rel="stylesheet" href="add-lobinho.css">
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;family=Roboto:wght@300;700;900;display=swap" rel="stylesheet">
+</head>
+<body class="body_add_lobo">
+    <header>
+        <section id="section-header">
+            <a href="nossos-lobos.html" class="header-link">
+                <h2>Nossos Lobinhos</h2>
+            </a>
+            <a href="index.html" class="header-link"><img src="../images/cute-wolf.svg"></a>
+            <a href="quem-somos.html" class="header-link2">
+                <h2>Quem Somos</h2>
+            </a>
+        </section>
+    </header>
+    <main class="main_add_lobo">
+        <form class="form_addlobo">
+            <div class="titulo-form">
+                <h1>Coloque um lobinho para Adoção</h1>
+            </div>
+            <div class="first-line">
+                <div class="line-top">
+                    <label for="nomeLobo">Nome do lobinho:</label>
+                    <input type = "text" class="input_lobo" id="nomeLobo">
+                </div>
+                <div class="line-botton">  
+                    <label for="anos">Anos:</label>
+                    <input type = "text" class="input_anos" id="anos">
+                </div>
+            </div>
+            <div class="second-line">
+                <label for="link-foto">Link da Foto:</label>
+                <input type = "text">
+            </div>
+            <div class="descrição-do-form">
+            <label for="descricao-form">Descrição:</label>
+            <textarea name="" id="" cols="80" rows="10"></textarea>
+            </div>
+            <div class="form-button">
+                <button type="submit">Salvar</button> 
+            </div> 
+        </form>
+    </main>
+    <div id="linear-gradient"></div>
+    <footer>
+        <section id="footer-section">
+
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="380" height="280" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=IN%20junior&t=&z=19&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <a href="https://www.embedgooglemap.net">html embed google map</a>
+
+                </div>
+            </div>
+
+
+            <div id="footer-div">
+                <p class="informations-footer"><img src="../images/location.svg"> Av. Milton Tavares de Souza, s/n -
+                    Sala 115 B - Boa Viagem, Niterói - RJ, 24210-315</p>
+                <p class="informations-footer"><img src="../images/phone.svg"> (99) 99999-9999</p>
+                <p class="informations-footer"><img src="../images/email.svg"> salve-lobos@lobINhos.com</p>
+
+                <p class="informations-footer"><button type="button" id="button-footer"><a href="quem-somos.html"
+                            id="link-quem-somos">Quem Somos</a></button></p>
+            </div>
+
+            <div id="developed-by">
+                <p>Desenvolvido com</p>
+                <img src="../images/paws.svg">
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
