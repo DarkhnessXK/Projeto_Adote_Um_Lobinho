@@ -225,6 +225,7 @@ footer {
 #who-we-are-main {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 5vh;
     padding: 3vh;
 }
@@ -241,8 +242,10 @@ footer {
 
 /* Nossos lobos */
 
-main{
-    margin: 5vh 9vw;
+#our-wolves-main {
+    display: flex;
+    flex-direction: column;
+    margin: 5vh;
     padding: 3vh;
 }
 
