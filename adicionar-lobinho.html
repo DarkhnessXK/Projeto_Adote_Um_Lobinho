@@ -21,30 +21,30 @@
         </section>
     </header>
     <main class="main_add_lobo">
-        <form class="form_addlobo">
+        <form class="form_addlobo" >
             <div class="titulo-form">
                 <h1>Coloque um lobinho para Adoção</h1>
             </div>
             <div class="first-line">
-                <fieldset class="line-top">
+                <div class="line-top">
                     <label for="nomeLobo">Nome do lobinho:</label>
                     <input type = "text" class="input_lobo" id="nomeLobo">
-                </fieldset>
-                <fieldset class="line-botton">  
+                </div>
+                <div class="line-botton">  
                     <label for="anos">Anos:</label>
                     <input type = "text" class="input_anos" id="anos">
-                </fieldset>
+                </div>
             </div>
-            <fieldset class="second-line">
-                <label for="link-foto">Link da Foto:</label>
-                <input type = "text">
-            </fieldset>
-            <fieldset class="descrição-do-form">
-            <label for="descricao-form">Descrição:</label>
-            <textarea name="" id="" cols="80" rows="10"></textarea>
-            </fieldset>
+            <div class="second-line">
+                <label for="link-foto" >Link da Foto:</label>
+                <input type = "text" id ="link-foto">
+            </div>
+            <div class="descrição-do-form">
+                <label for="descricao-form">Descrição:</label>
+                <textarea name="" id="lobinho_descri" cols="80" rows="10"></textarea>
+            </div>
             <div class="form-button">
-                <button type="submit">Salvar</button> 
+                <button id ="submit-button">Salvar</button> 
             </div> 
         </form>
     </main>
@@ -78,5 +78,6 @@
             </div>
         </section>
     </footer>
+    <script src="addlobo.js"></script>
 </body>
 </html>
